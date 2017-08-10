@@ -44,6 +44,14 @@ function main () {
         button.checked = Config.Display[button.dataset.group][button.name];
         button.onchange = onToggleButton;
       }
+
+  // Inserts localized On/Off label to toggle's labels
+  let toggleLabels = SettingsSection.querySelectorAll(".toggleButton + label");
+      for (let label of toggleLabels) {
+        label.setAttribute("data-ON_label", browser.i18n.getMessage("toggleON"));
+        label.setAttribute("data-OFF_label", browser.i18n.getMessage("toggleOFF"));
+      }
+
   // apply values to input fields and add their event function
   let inputFields = SettingsSection.querySelectorAll(".colorField, .selectField, .valueField");
       for (let field of inputFields) {

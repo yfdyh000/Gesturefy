@@ -444,6 +444,15 @@
     }
   },
 
+  "toggleON": {
+    "message": "开",
+    "description": "checked on Settings"
+  },
+  "toggleOFF": {
+    "message": "关",
+    "description": "not checked on Settings"
+  },
+
   "aboutLicense": {
     "message": "许可协议:",
     "description": "License:"

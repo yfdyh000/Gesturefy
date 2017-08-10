@@ -229,11 +229,11 @@ a:hover, a:focus {
 }
 
 .toggleButton + label:after {
-  content: "Off";
+  content: attr(data-OFF_label);
 }
 
 .toggleButton:checked + label:after {
-  content: "On";
+  content: attr(data-ON_label);
 }
 
 .toggleButton:checked + label {

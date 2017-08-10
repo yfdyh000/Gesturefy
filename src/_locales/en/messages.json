@@ -444,6 +444,15 @@
     }
   },
 
+  "toggleON": {
+    "message": "On",
+    "description": "checked on Settings"
+  },
+  "toggleOFF": {
+    "message": "Off",
+    "description": "not checked on Settings"
+  },
+
   "aboutLicense": {
     "message": "License:",
     "description": "License:"
